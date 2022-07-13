@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Box ICONS -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- CSS -->
     <link rel="stylesheet" href="marka/css/styles.css" />
@@ -19,7 +16,7 @@
 
 
     <!-- SCROLL TOP -->
-    <a href="#" class="scrolltop" id="scroll-top">
+    <a href="#" class="scrolltop scroll-top" id="scroll-top">
         <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
 
@@ -29,11 +26,11 @@
             <a href="#" class="nav__logo">Tasty Food</a>
 
             <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#menu" class="nav__link active-link">Menu</a></li>
-                    <li class="nav__item"><a href="#dryck" class="nav__link ">Dryck</a></li>
+                <ul class="nav__list"> 
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link ">About</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
                 </ul>
             </div>
@@ -44,7 +41,43 @@
         </nav>
     </header>
 
-    <main class="1-main"></main>
+    <main class="1-main">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home__container bd contaainer bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Tasty Food</h1>
+                    <h2 class="home__subtitle"> Try the best food of <br> in the city.</h2>
+                    <a href="#" class="button">View Menu</a>
+                </div>
+                <img src="marka/img/africa.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!-- about -->
+        <section class="about section bd-container" id="about">
+            <div class="about__container bd-grid">
+                <div class="about">
+                    <span class="section-subtitle">About us</span>
+                    <h2 class="section-title">We cook the best <br>tasty food</h2>
+                </div>
+            </div>
+        </section>
+
+        <!--services  -->
+        <section class="servies section bd-container" id="services">
+            <span class="section-subtitle">Offering</span>
+            <h2 class="section-title">Our amazing services</h2>
+            <div class="servies__container bd-grid">
+                <div class="servies__content">
+                    <svg class="services__img" xmlns="http://www.w3.org/2000/svg">
+                    </svg>
+                    <h3 class="services__title">Excellent food</h3>
+                    <p class="services__description">we offer our clients excellent quality services, with the best and delicious food in the city.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer section bd-container"></footer>
