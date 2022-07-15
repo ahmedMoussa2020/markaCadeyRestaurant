@@ -401,7 +401,7 @@ img{
 }
 
 .app__store{
-  width: 120px;
+  width: 120px; 
   margin: 0 var(--mb-1);
 }
 
