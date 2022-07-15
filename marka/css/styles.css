@@ -263,12 +263,14 @@ img{
   font-size: var(--biggest-font-size);
   color: var(--first-color);
   margin-bottom: var(--mb-1);
+  text-align: center;
 }
 
 .home__subtitle{
   font-size: var(--h1-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-4);
+  text-align: center;
 }
 
 .home__img{
@@ -286,6 +288,10 @@ img{
   transition: .3s;
 }
 
+.button__text__center{
+    text-align: center;
+}
+
 .button:hover{
   background-color: var(--first-color-alt);
 }
@@ -297,6 +303,7 @@ img{
 
 .about__description{
   margin-bottom: var(--mb-3);
+  text-align: center;
 }
 
 .about__img{
@@ -381,7 +388,7 @@ img{
 }
 
 /*========== APP ==========*/
-.app__data{
+/* .app__data{
   text-align: center;
 }
 
@@ -401,7 +408,7 @@ img{
 .app__img{
   width: 230px;
   justify-self: center;
-}
+} */
 
 /*========== CONTACT ==========*/
 .contact__container{
@@ -559,7 +566,7 @@ img{
 }
 
 /* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
+@media screen and (min-height: 775px) {
     .home__container {
         height: 640px;
     }
